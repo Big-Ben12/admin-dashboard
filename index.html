@@ -1,143 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="sidebar">
-            <h2>Dashboard</h2>
+      <div class="sidebar">
+        <h2>
+          <span class="material-symbols-outlined">dashboard</span>Dashboard
+        </h2>
+        <ul class="sidebar-menu-top">
+          <li><span class="material-symbols-outlined">home</span>Home</li>
+          <li>
+            <span class="material-symbols-outlined">contact_mail</span>Profile
+          </li>
+          <li>
+            <span class="material-symbols-outlined">chat_bubble</span>Messages
+          </li>
+          <li>
+            <span class="material-symbols-outlined">schedule</span>History
+          </li>
+          <li><span class="material-symbols-outlined">cases</span>Tasks</li>
+          <li>
+            <span class="material-symbols-outlined">groups</span>Communities
+          </li>
+        </ul>
+        <ul class="sidebar-menu-bottom">
+          <li>
+            <span class="material-symbols-outlined">settings</span>Settings
+          </li>
+          <li><span class="material-symbols-outlined">info</span>Support</li>
+          <li>
+            <span class="material-symbols-outlined">verified_user</span>Privacy
+          </li>
+        </ul>
+      </div>
+      
+      <div class="topbar">
+        <div class="search">
+          <span class="material-symbols-outlined">search</span>
+          <input class="search-input" type="text" />
+        </div>
+        <div class="notifications">
+          <a href=""
+            ><span class="material-symbols-outlined"
+              >notifications_active</span
+            ></a
+          >
+          <a href=""><img src="assets/img/account-avatar-profile-user.svg" alt=""/></a>
+          <a href=""><p>Morgan Oakley</p></a>
+        </div>
+      </div>
+
+      <div class="profile-nav">
+        <div class="profile">
+          <div class="profile-img">
+            <img src="assets/img/account-avatar-profile-user.svg" alt="" />
+          </div>
+
+          <div class="profile-details">
+            <p>Hello there,</p>
+            <h3 class="profile-name">Morgan Oakley (@morgan)</h3>
+          </div>
+        </div>
+        <div class="profile-nav-menu">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+
+      <h3 class="projects-heading">Your Projects</h3>
+      <div class="projects">
+        <div class="card">
+          <p class="project-title">Super Cool Project</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud...
+          </p>
+          <div class="project-menu">
             <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">
+                    hotel_class
+                  </span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">
+                    visibility
+                  </span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined"> share </span></a
+                >
+              </li>
             </ul>
+          </div>
+        </div>
+        <div class="card">
+          <p class="project-title">Less Cool Project</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud...
+          </p>
+          <div class="project-menu">
+            <ul>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">
+                    hotel_class
+                  </span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">
+                    visibility
+                  </span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined"> share </span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <p class="project-title">Impossible App</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud...
+          </p>
+          <div class="project-menu">
+            <ul>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">
+                    hotel_class
+                  </span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">
+                    visibility
+                  </span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined"> share </span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <p class="project-title">Easy Peasy App</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud...
+          </p>
+          <div class="project-menu">
+            <ul>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">
+                    hotel_class
+                  </span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">
+                    visibility
+                  </span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined"> share </span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <p class="project-title">Ad Blocker</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud...
+          </p>
+          <div class="project-menu">
+            <ul>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">
+                    hotel_class
+                  </span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">
+                    visibility
+                  </span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined"> share </span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <p class="project-title">Money Maker</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud...
+          </p>
+          <div class="project-menu">
+            <ul>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">
+                    hotel_class
+                  </span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">
+                    visibility
+                  </span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined"> share </span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-pane">
+        <h3 class="announcement-heading" >Announcement</h3>
+        <div class="announcement">
+          <div class="card">
+            <p>
+              <strong>Site Maintenance</strong><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+            <hr />
+            <p>
+              <strong>Community Share Day</strong><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+            <hr />
+            <p>
+              <strong>Updated Privacy Policy</strong><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
         </div>
 
-        <div class="topbar">
-            <div class="search">
-                <div class="search-icon">
-
-                </div>
-                <input class="search-input" type="text">
-            </div>
-            <div class="notifications">
-                <img src="" alt="">
-                <p>Morgan Oakley</p>
-            </div>
-            <div class="profile-nav">
-                <div class="profile">
-                    <div class="profile-icon">
-                        <img src="" alt="">
+        <h3 class="trending-heading">Trending</h3>
+        <div class="trending">
+            <div class="card">
+                <div class="trending-profile">
+                    <div class="trending-profile-img">
+                      <img src="assets/img/account-avatar-profile-user.svg" alt="" />
                     </div>
-                    <div class="profile-details">
-                        <p>Hello there, </p>
-                        <h3 class="profile-name">Morgan Oakley (@morgan)</h3>
+          
+                    <div class="trending-profile-details">
+                      <p class="trending-profile-name"> <strong>@morgan</strong></p>
+                      <p>World Peace Builder</p>
                     </div>
                 </div>
-                <div class="nav-menu">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
+                <div class="trending-profile">
+                    <div class="trending-profile-img">
+                      <img src="assets/img/account-avatar-profile-user.svg" alt="" />
+                    </div>
+          
+                    <div class="trending-profile-details">
+                      <h3 class="trending-profile-name">@morgan</h3>
+                      <p>World Peace Builder</p>
+                    </div>
+                </div>
+                <div class="trending-profile">
+                    <div class="trending-profile-img">
+                      <img src="assets/img/account-avatar-profile-user.svg" alt="" />
+                    </div>
+          
+                    <div class="trending-profile-details">
+                      <h3 class="trending-profile-name">@morgan</h3>
+                      <p>World Peace Builder</p>
+                    </div>
+                </div>
+                <div class="trending-profile">
+                    <div class="trending-profile-img">
+                      <img src="assets/img/account-avatar-profile-user.svg" alt="" />
+                    </div>
+          
+                    <div class="trending-profile-details">
+                      <h3 class="trending-profile-name">@morgan</h3>
+                      <p>World Peace Builder</p>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="projects">
-            <h3>Your Projects</h3>
-            <div class="card">
-                <p class="project-title">Super Cool Project</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                <div class="project-menu">
-                    <ul>
-                        <li>Fav</li>
-                        <li>View</li>
-                        <li>Share</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <p class="project-title">Less Cool Project</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                <div class="project-menu">
-                    <ul>
-                        <li>Fav</li>
-                        <li>View</li>
-                        <li>Share</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <p class="project-title">Impossible App</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                <div class="project-menu">
-                    <ul>
-                        <li>Fav</li>
-                        <li>View</li>
-                        <li>Share</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <p class="project-title">Easy Peasy App</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                <div class="project-menu">
-                    <ul>
-                        <li>Fav</li>
-                        <li>View</li>
-                        <li>Share</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <p class="project-title">Ad Blocker</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                <div class="project-menu">
-                    <ul>
-                        <li>Fav</li>
-                        <li>View</li>
-                        <li>Share</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <p class="project-title">Money Maker</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                <div class="project-menu">
-                    <ul>
-                        <li>Fav</li>
-                        <li>View</li>
-                        <li>Share</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="right-pane">
-            <div class="announcements">
-                <h3>Announcement</h3>
-                <div class="card">
-                    <p><strong>Site Maintenance</strong><br>Vestibulum condimentum tellus lacus...</p>
-                    <p><strong>Community Share Day</strong><br>Nam vel lectus tincidunt...</p>
-                    <p><strong>Updated Privacy Policy</strong><br>Phasellus efficitur nisl eget elit consectetur...</p>
-                </div>
-            </div>
-            <div class="trending">
-                <h3>Trending</h3>
-                <p>@tegan - World Peace Builder</p>
-                <p>@morgan - Super Cool Project</p>
-                <p>@kendall - Life Changing App</p>
-                <p>@alex - No Traffic Maker</p>
-            </div>
-        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
